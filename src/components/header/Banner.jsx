@@ -177,7 +177,9 @@ const Banner = () => {
             </div> */}
 
             <div className="hidden flex-row px-[1px] md:flex items-center justify-between bg-bg-primary h-[44px] text-base16 rounded-full">
-              <div className="pr-[32px] pl-[60px] py-[14px]">Where are We going?</div>
+              <div className="pr-[32px] pl-[60px] py-[14px]">
+                Where are We going?
+              </div>
               <div className="border-r-[1px] h-[35px]"></div>
               <div className="px-[32px] py-[14px] text-start">Check In</div>
               <div className="border-r-[1px] h-[35px]"></div>
@@ -198,6 +200,45 @@ const Banner = () => {
                     fill="#4094B2"
                   />
                 </svg>
+              </div>
+            </div>
+
+            <div className="md:hidden">
+              <div className="h-[44px] flex flex-row items-center justify-between bg-bg-primary rounded-full text-base14 mb-[18px]">
+                <div className="pr-[32px] pl-[32px] py-[14px] grow  text-center">
+                  Where are We going?
+                </div>
+                <div className="flex flex-row items-center h-[40px] border-[1px] py-[14x] px-[6px] mr-[2px] rounded-full">
+                  Go!
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="16"
+                    viewBox="0 0 12 16"
+                    fill="none"
+                  >
+                    <path
+                      d="M8.7958 5.88079L4.2058 1.29079C4.01844 1.10454 3.76498 1 3.5008 1C3.23661 1 2.98316 1.10454 2.7958 1.29079C2.70207 1.38376 2.62768 1.49436 2.57691 1.61622C2.52614 1.73808 2.5 1.86878 2.5 2.00079C2.5 2.1328 2.52614 2.26351 2.57691 2.38537C2.62768 2.50723 2.70207 2.61783 2.7958 2.71079L7.3958 7.29079C7.48953 7.38376 7.56392 7.49436 7.61469 7.61622C7.66546 7.73808 7.6916 7.86878 7.6916 8.00079C7.6916 8.13281 7.66546 8.26351 7.61469 8.38537C7.56392 8.50723 7.48953 8.61783 7.3958 8.71079L2.7958 13.2908C2.60749 13.4778 2.50118 13.7319 2.50024 13.9973C2.4993 14.2626 2.60382 14.5175 2.7908 14.7058C2.97778 14.8941 3.2319 15.0004 3.49726 15.0014C3.76263 15.0023 4.0175 14.8978 4.2058 14.7108L8.7958 10.1208C9.3576 9.55829 9.67316 8.7958 9.67316 8.00079C9.67316 7.20579 9.3576 6.44329 8.7958 5.88079Z"
+                      fill="#4094B2"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <div className="flex flex-row  justify-stretch  text-base14 h-[44px]">
+                <div className="flex  items-center justify-center rounded-full">
+                <div className="px-[8px] py-[4px] bg-bg-primary flex items-center justify-center rounded-l-full">
+                  Check In
+                </div>
+                <div className="border-r-[1px] h-[24px]"></div>
+                <div className="px-[8px] py-[4px] bg-bg-primary flex items-center justify-center rounded-r-full">
+                  Check Out
+                </div>
+                </div>
+
+                <div className="px-[8px] py-[4px] ml-4 flex items-center justify-center bg-bg-primary rounded-full">
+                  Guest
+                </div>
               </div>
             </div>
             {/* TODO: END */}
